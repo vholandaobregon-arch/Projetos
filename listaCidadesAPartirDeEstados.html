@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>listaCidadesAPartirDeEstados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 500px;
+            margin: auto;
+        }
+        select, p {
+            margin: 10px 0;
+            padding: 8px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>listaCidadesAPartirDeEstados</h2>
+
+    <label for="estado">Estado:</label>
+    <select id="estado">
+        <option value="">Selecione um estado</option>
+    </select>
+
+    <label for="cidade">Cidade:</label>
+    <select id="cidade" disabled>
+        <option value="">Selecione um estado primeiro</option>
+    </select>
+
+    <p id="resultado"></p>
+
+    <script src="listaCidadesAPartirDeEstados.js"></script>
+
+</body>
+</html>
