@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta de CEP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 500px;
+            margin: auto;
+        }
+        input, button {
+            padding: 8px;
+            margin: 5px 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #resultado {
+            margin-top: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Consulta de Endereço por CEP</h2>
+    <input type="text" id="cep" placeholder="Digite o CEP (somente números)">
+    <button id="buscar">Buscar Endereço</button>
+
+    <div id="resultado"></div>
+
+    <!-- Importa o script externo -->
+    <script src="buscaCep.js"></script>
+
+</body>
+</html>
